@@ -1,0 +1,8 @@
+<h3>ngIf else directive</h3>
+<div>
+  <input 
+    type="text"
+    [(ngModel)]="whatsInBox" />
+  <div *ngIf="whatsInBox == 'yes' else noEntered">Yes entered</div>
+  <ng-template #noEntered><div>No entered</div></ng-template>
+</div>

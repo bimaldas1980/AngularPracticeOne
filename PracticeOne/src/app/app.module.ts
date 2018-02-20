@@ -9,6 +9,7 @@ import { ChildThreeComponent } from './child-three/child-three.component';
 import { ChildFourComponent } from './child-four/child-four.component';
 import { ChildFiveComponent } from './child-five/child-five.component';
 import { FormsModule } from '@angular/forms';
+import { ChildSixComponent } from './child-six/child-six.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     ChildTwoComponent,
     ChildThreeComponent,
     ChildFourComponent,
-    ChildFiveComponent
+    ChildFiveComponent,
+    ChildSixComponent
   ],
   imports: [
     BrowserModule,
