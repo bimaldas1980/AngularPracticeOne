@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Event } from '_debugger';
+
 
 @Component({
   selector: 'app-child-four',
@@ -13,7 +13,5 @@ export class ChildFourComponent implements OnInit {
   ngOnInit() {
   }
 
-  OnTypeSomething(event: Event) {
-    this.typedInInput = (<HTMLInputElement>event.target).value;
-  }
+ 
 }

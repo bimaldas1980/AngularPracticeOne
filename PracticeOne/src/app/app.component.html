@@ -10,6 +10,24 @@
     <app-child-four></app-child-four>
     <app-child-five></app-child-five>
     <app-child-six></app-child-six>
+    <p appBackgroundColor>
+      This content should have red background color
+    </p>
+    <p appBackgroundcolorRenderer>
+      This content should have a yellow backround.
+    </p>
+    <p appHostlistener>
+      This content should display different colour on mouse over and mouse out using HostListener.
+    </p>
+    <p appHostbinding>
+      This content should display differnet backgorund color on mouse move using HostBinding and not by Renderer.
+    </p>
+    <p [appDirectiveInput]="'red'" [backColor]="'yellow'">
+      This content should have background color and font color set as parameter from html element.
+    </p>
+    <p appDirectiveInput="red" backColor="yellow">
+      Same as above. Different syntax.
+    </p>
   </div>
 </div>
 

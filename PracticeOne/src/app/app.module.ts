@@ -10,6 +10,11 @@ import { ChildFourComponent } from './child-four/child-four.component';
 import { ChildFiveComponent } from './child-five/child-five.component';
 import { FormsModule } from '@angular/forms';
 import { ChildSixComponent } from './child-six/child-six.component';
+import { BackgroundColorDirective } from './directives/background-color.directive';
+import { BackgroundcolorRendererDirective } from './directives/backgroundcolor-renderer.directive';
+import { HostlistenerDirective } from './directives/hostlistener.directive';
+import { HostbindingDirective } from './directives/hostbinding.directive';
+import { DirectiveInputDirective } from './directives/directive-input.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { ChildSixComponent } from './child-six/child-six.component';
     ChildThreeComponent,
     ChildFourComponent,
     ChildFiveComponent,
-    ChildSixComponent
+    ChildSixComponent,
+    BackgroundColorDirective,
+    BackgroundcolorRendererDirective,
+    HostlistenerDirective,
+    HostbindingDirective,
+    DirectiveInputDirective
   ],
   imports: [
     BrowserModule,
